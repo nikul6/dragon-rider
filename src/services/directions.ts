@@ -5,6 +5,6 @@ export async function getDirections(from, to) {
         `${BASE_URL}/walking/${from[0]},${from[1]};${to[0]},${to[1]}?alternatives=false&annotations=distance%2Cduration&continue_straight=true&geometries=geojson&overview=full&steps=false&access_token=${process.env.EXPO_PUBLIC_MAPBOX_KEY}`
     );
     const json = await (await response).json();
-    console.log("json ---> ", json)
+    // console.log("json ---> ", json)
     return json;
 }

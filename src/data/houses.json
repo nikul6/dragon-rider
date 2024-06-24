@@ -1,0 +1,8 @@
+[
+  { "id": 1, "state": "House Stark", "latitude":21.2333384, "longitude":72.8716564, "image": "https://drive.google.com/thumbnail?id=1NOA8CeylFGg5VGVl7oNE0uEd8aEpe0Ab"},
+  { "id": 2, "state": "House Targaryen", "latitude": 21.2330125, "longitude": 72.866069, "image": "https://drive.google.com/thumbnail?id=1XZ8fK_tI3z8Itk8hvol6-XJ5Wgq-moGY" },
+  { "id": 3, "state": "House Martell", "latitude": 21.2334335, "longitude": 72.8690631, "image": "https://drive.google.com/thumbnail?id=1BUnTpgMy_PjmlEerzf9KPk6_H4dk980j" },
+  { "id": 4, "state": "House Lannister", "latitude": 21.2330127, "longitude": 72.8687979, "image": "https://drive.google.com/thumbnail?id=1zziDiFhl4vfgvr6ArF70lC4RgrxUttaN" },
+  { "id": 5, "state": "House Arryn", "latitude": 21.2333873, "longitude": 72.8646793, "image": "https://drive.google.com/thumbnail?id=1I1e1HpOVp3A8JM00mAd32mnJa02P9cL2" },
+  { "id": 6, "state": "House Tyrell", "latitude": 21.2344304, "longitude": 72.866114, "image": "https://drive.google.com/thumbnail?id=1zz6yVZJ31jaWfMbvOUDHK26_8SdqO_Mw" }
+]
