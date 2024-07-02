@@ -6,9 +6,9 @@ import pin from '../../assets/pin.png';
 import LineRoute from '../components/LineRoute';
 import { useHouse } from '../Context/HouseProvider';
 import HouseMarkers from '../components/HouseMarkers';
+import SelectedHouseSheet from '../components/SelectedHouseSheet';
 
-const accessToken = 'pk.eyJ1IjoibmlrdW5qOSIsImEiOiJjbHhrOTQ1cWgxYzF1MmtzZmZxamRodXVvIn0.y2cZk7yxPYG-dBoEy9KYCg';
-Mapbox.setAccessToken(accessToken);
+Mapbox.setAccessToken(process.env.EXPO_PUBLIC_MAPBOX_KEY || '');
 
 export default function Home() {
 
@@ -47,6 +47,7 @@ export default function Home() {
       {/* <LocationPuck puckBearingEnabled puckBearing='course' pulsing={{ isEnabled: true }} /> */}
       <HouseMarkers/>
       {directionCoordinates && <LineRoute coordinates={directionCoordinates} />}
+      <SelectedHouseSheet/>
     </MapView>
   );
 }

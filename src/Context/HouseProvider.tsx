@@ -7,6 +7,8 @@ import { getDirections } from '../services/directions';
 interface House {
     longitude: number;
     latitude: number;
+    id: number;
+    state: string
 }
 
 interface Direction {
